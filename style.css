@@ -1,140 +1,69 @@
-@charset "UTF-8";
-* {
-    padding: 0;
-    margin: 0;
-}
-
-.container1 {
-    background-attachment: fixed;
-    background-image: url(imagens/pexels-luis-dalvan-1770775.jpg);
-    height: 600px;
-    background-size: cover;
-    text-align: center;
-}
-
-.container1 h1 {
-    color: white;
-    background-color: skyblue;
-    top: 50%;
-    display: inline-block;
-    position: relative;
-    padding: 20px;
-    letter-spacing: 7px;
-}
-
-.sessao1 {
-    padding: 40px 60px;
-    text-align: center;
-    background-color: gray;
-}
-
-.sessao1 h2 {
-    margin: 20px;
-    font-size: 30px;
-}
-
-.sessao1 p {
-    font-size: 20px;
-}
-
-.container2 {
-    background-attachment: fixed;
-    background-image: url(imagens/pexels-nextvoyage-861609.jpg);
-    height: 400px;
-    background-size: cover;
-}
-
-.container2 h1 {
-    text-align: center;
-    position: relative;
-    top: 50%;
-    color: beige;
-    text-shadow: 2px 2px 5px black;
-}
-
-.sessao2 {
-    padding: 40px 60px;
-    background-color: rgb(17, 15, 15);
-    color: blanchedalmond;
-    text-align: center;
-}
-
-.sessao2 h2 {
-    font-size: 30px;
-    margin-top: 10px;
-}
-
-.sessao2 p {
-    font-size: 20px;
-    margin: 20px;
-}
-
-.container3 {
-    background-attachment: fixed;
-    background-image: url(imagens/pexels-carlos-oliva-3586966.jpg);
-    height: 600px;
-    background-size: cover;
-}
-
-.container3 h1 {
-    text-align: center;
-    position: relative;
-    top: 50%;
-    color: blanchedalmond;
-    text-shadow: black 5px 5px 10px;
-}
-
-.sessao3 {
-    color: rgb(207, 205, 205);
-    background-color: black;
-    padding: 40px 60px;
-    text-align: center;
-}
-
-.sessao3 h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.sessao3 p {
-    font-size: 20px;
-}
-
-.container4 {
-    background-attachment: fixed;
-    background-image: url(imagens/pexels-luis-dalvan-1770775.jpg);
-    height: 600px;
-    background-size: cover;
-    text-align: center;
-}
-
-.container4 h1 {
-    color: white;
-    background-color: skyblue;
-    top: 50%;
-    display: inline-block;
-    position: relative;
-    padding: 20px;
-    letter-spacing: 7px;
-}
-
-footer {
-    font-weight: bolder;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    padding: 15px;
-    text-align: center;
-    background-color: rgb(96, 96, 223);
-}
-
-footer a {
-    color: rgb(8, 8, 6);
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: white;
-    transition: 1s;
-    text-decoration: underline;
-    text-shadow: 1px 1px 1px black;
-}
+    @charset "UTF-8";
+    * {
+        margin: 0;
+        padding: 0;
+        ;
+    }
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .container {
+        background-color: coral;
+        height: 10vh;
+        width: 891px;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .titulo {
+        margin-top: 10px;
+        text-shadow: 3px 2px 3px cornsilk;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .classes {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
+        width: 100vw;
+        height: 74vh;
+        background-color: greenyellow;
+    }
+    
+    li {
+        font-size: 20px;
+        transition: 1s ease-in-out;
+        cursor: pointer;
+        box-shadow: 1px 1px 1px black;
+        list-style: none;
+        text-align: center;
+        border-radius: 20px;
+        background: plum;
+        border: 1px solid black;
+        padding: 3rem;
+    }
+    
+    li:hover {
+        font-size: 30px;
+        background: dodgerblue;
+        padding: 5rem;
+    }
+    
+    footer {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width: 100vw;
+        background-color: grey;
+        height: 16vh;
+    }
+    
+    h2 {
+        height: 5vh;
+        text-align: center;
+    }
