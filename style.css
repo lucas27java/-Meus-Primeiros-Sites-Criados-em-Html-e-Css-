@@ -1,0 +1,141 @@
+    @charset "UTF-8";
+    header {
+        justify-content: center;
+        display: flex;
+    }
+    
+    h1 {
+        text-align: center;
+        width: 375px;
+        border: solid;
+        background-color: cadetblue;
+    }
+    
+    .descrição {
+        background-color: #5F9EA0;
+    }
+    
+    .container {
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        display: flex;
+    }
+    
+    .formatação {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .facebook {
+        border-radius: 20px;
+        border: solid;
+        height: 100px;
+        width: 100px;
+        background: cornflowerblue;
+    }
+    
+    .instagram {
+        border-radius: 20px;
+        text-align: center;
+        border: solid;
+        height: 100px;
+        width: 100px;
+        background: rgb(216, 100, 237);
+    }
+    
+    .github {
+        border-radius: 20px;
+        text-align: center;
+        border: solid;
+        height: 100px;
+        width: 100px;
+        background: rgb(235, 237, 100);
+    }
+    
+    .linkedin {
+        border-radius: 20px;
+        text-align: center;
+        border: solid;
+        height: 100px;
+        width: 100px;
+        background: rgb(105, 237, 100);
+    }
+    
+    body {
+        background: burlywood;
+    }
+    
+    footer {
+        padding: 1px;
+        text-align: center;
+        margin: 112px auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border: 4px dotted black;
+        width: 51%;
+        height: 34px;
+    }
+    
+    h2 {
+        border-radius: 0px;
+    }
+    
+    .pai {
+        box-sizing: border-box;
+        justify-content: space-around;
+        margin: 50px auto;
+        border: solid;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        background-color: salmon;
+    }
+    
+    .texto {
+        border-radius: 15px;
+        height: 44px;
+        width: 258px;
+    }
+    
+    .texto2 {
+        border-radius: 15px;
+        height: 42px;
+        width: 172px;
+    }
+    
+    .caixa {
+        display: flex;
+        height: 100%;
+        width: 50%;
+        justify-content: center;
+    }
+    
+    .container2 {
+        display: flex;
+        background: black;
+        height: 107px;
+        width: 608px;
+    }
+    
+    .filho {
+        margin: 0px 10px auto;
+        border: solid black;
+        background: white;
+        height: 100px;
+        width: 100px;
+    }
+    
+    .rodape {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.445);
+        text-align: center;
+    }
+    
+    .textofinal {
+        margin: auto;
+        height: 32px;
+        width: 100%;
+    }
